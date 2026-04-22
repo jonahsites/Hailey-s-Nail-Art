@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", "Arial", sans-serif;
+  --font-serif: "Georgia", serif;
+  --font-cursive: "cursive", serif;
+  
+  --color-studio-black: #000000;
+  --color-studio-white: #FFFFFF;
+  --color-studio-gray: #111111;
+  --color-studio-muted: rgba(255, 255, 255, 0.6);
+  --color-studio-line: rgba(255, 255, 255, 0.1);
+  --color-studio-line-strong: rgba(255, 255, 255, 0.3);
+}
+
+@layer base {
+  body {
+    @apply bg-studio-black text-studio-white font-sans antialiased;
+  }
+}
+
+.serif {
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+.cursive {
+  font-family: var(--font-cursive);
+}
+
+.uppercase-label {
+  @apply text-[11px] uppercase tracking-[2px] font-semibold;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-studio-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-studio-line-strong);
+}
