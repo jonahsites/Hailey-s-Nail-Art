@@ -12,8 +12,12 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-16 mb-24">
           <div className="md:col-span-2">
             <div className="flex items-center gap-4 mb-8">
-               <div className="w-12 h-12 rounded-full border border-studio-white/20 flex items-center justify-center">
-                 <span className="cursive text-2xl">H</span>
+               <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
+                 <img 
+                   src="https://www.image2url.com/r2/default/images/1776859192714-c991d6ef-378d-4004-97ef-d0074df81a10.png" 
+                   alt="Hailey's Logo" 
+                   className="w-full h-full object-contain invert"
+                 />
                </div>
                <span className="serif text-2xl tracking-widest uppercase">Hailey's Studio</span>
             </div>

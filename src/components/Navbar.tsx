@@ -16,7 +16,7 @@ export function Navbar() {
         <a href="/" className="flex items-center gap-4 group">
           <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
              <img 
-               src="/7C29F567-218E-4A64-B0E3-05FF5472E069.heic" 
+               src="https://www.image2url.com/r2/default/images/1776859192714-c991d6ef-378d-4004-97ef-d0074df81a10.png" 
                alt="Hailey's Logo" 
                className="w-full h-full object-contain invert"
              />
