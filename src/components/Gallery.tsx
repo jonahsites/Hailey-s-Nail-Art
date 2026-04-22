@@ -7,9 +7,9 @@ import { motion } from "motion/react";
 
 export function Gallery() {
   const images = [
-    "/64DFA54C-7E58-4D2E-92E8-405CC29D6AB8_4_5005_c.jpeg",
-    "/C359E780-7678-4F65-A026-6A219E7D0843_4_5005_c.jpeg",
-    "/E1EB381F-DE59-4C9D-8868-43E61EEC42D6_4_5005_c.jpeg",
+    "https://drive.google.com/thumbnail?id=1ryMvg01P1wCYA5qSambSpQjBzbaQNfl6&sz=w1000",
+    "https://drive.google.com/thumbnail?id=1pALNrIUEeRbFcoWtobht-Cu-MmWL8Umu&sz=w1000",
+    "https://drive.google.com/thumbnail?id=1X7VFJKTe-dZGaZ2cquZBHkBUq0E-hxTZ&sz=w1000",
     "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1600050218447-2483982a9dc6?auto=format&fit=crop&q=80&w=800"
