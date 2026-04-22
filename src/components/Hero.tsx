@@ -40,7 +40,7 @@ export function Hero() {
           className="md:col-span-2 relative aspect-[3/4] md:aspect-auto h-full border-l border-studio-line"
         >
           <img 
-            src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&q=80&w=1200" 
+            src="https://drive.google.com/uc?export=view&id=1sVV_rNsKfPfgtzDI6I_R_OICMEzkMIl0" 
             alt="Minimalist Nail Art"
             className="w-full h-full object-cover grayscale brightness-75 transition-all duration-1000"
           />

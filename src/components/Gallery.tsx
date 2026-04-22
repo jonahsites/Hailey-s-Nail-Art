@@ -7,12 +7,12 @@ import { motion } from "motion/react";
 
 export function Gallery() {
   const images = [
-    "https://images.unsplash.com/photo-1604654894611-6973b376cbde?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1629116723223-9533f92d47f0?auto=format&fit=crop&q=80&w=800",
+    "https://drive.google.com/uc?export=view&id=1ryMvg01P1wCYA5qSambSpQjBzbaQNfl6",
+    "https://drive.google.com/uc?export=view&id=1pALNrIUEeRbFcoWtobht-Cu-MmWL8Umu",
+    "https://drive.google.com/uc?export=view&id=1X7VFJKTe-dZGaZ2cquZBHkBUq0E-hxTZ",
     "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=800",
     "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1600050218447-2483982a9dc6?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&q=80&w=800"
+    "https://images.unsplash.com/photo-1600050218447-2483982a9dc6?auto=format&fit=crop&q=80&w=800"
   ];
 
   return (

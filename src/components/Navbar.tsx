@@ -14,8 +14,12 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-studio-black/90 backdrop-blur-sm border-b border-studio-line">
       <div className="max-w-7xl mx-auto px-10 h-24 flex items-center justify-between">
         <a href="/" className="flex items-center gap-4 group">
-          <div className="w-10 h-10 border border-studio-white flex items-center justify-center text-xl font-light">
-             H
+          <div className="w-12 h-12 flex items-center justify-center overflow-hidden">
+             <img 
+               src="/7C29F567-218E-4A64-B0E3-05FF5472E069.heic" 
+               alt="Hailey's Logo" 
+               className="w-full h-full object-contain invert"
+             />
           </div>
           <span className="serif text-2xl tracking-[1px] hidden sm:block">Hailey's</span>
         </a>
